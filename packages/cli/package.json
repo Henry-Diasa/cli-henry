@@ -17,7 +17,6 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.npm.taobao.org/",
     "access": "public"
   },
   "scripts": {
@@ -26,5 +25,5 @@
   "dependencies": {
     "chalk": "^5.2.0"
   },
-  "gitHead": "e499429a3b966471d3b0db695ae62bc20776a67b"
+  "gitHead": "3dded1d881901816a0639b1855aec152ee50f981"
 }
