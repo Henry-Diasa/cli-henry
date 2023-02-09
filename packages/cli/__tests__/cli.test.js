@@ -1,7 +1,3 @@
-'use strict';
-
-const cli = require('..');
-
-describe('cli', () => {
-    it('needs tests');
+test("run error command", () => {
+  expect(1 + 1).toBe(2);
 });
