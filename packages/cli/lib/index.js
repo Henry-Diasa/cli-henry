@@ -1,13 +1,8 @@
-const commander = require("commander");
-const createInitCommand = require("@cli-henry/init");
-const { program } = commander;
-const pkg = require("../package.json");
-module.exports = function (args) {
-  program
-    .name(Object.keys(pkg.bin)[0])
-    .usage("<command> [options]")
-    .version(pkg.version)
-    .option("-d, --debug", "是否开启调试", false);
+import createInitCommand from "@cli-henry/init";
+import createCli from "./createCli.js";
+import "./exception.js";
+export default function (args) {
+  const program = createCli();
   createInitCommand(program);
   program.parse(process.argv);
-};
+}

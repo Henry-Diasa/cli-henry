@@ -23,7 +23,9 @@
   "bugs": {
     "url": "https://github.com/Henry-Diasa/cli-henry/issues"
   },
+  "type": "module",
   "dependencies": {
-    "@cli-henry/command": "^0.0.6"
+    "@cli-henry/command": "^0.0.6",
+    "@cli-henry/utils": "^0.0.6"
   }
 }

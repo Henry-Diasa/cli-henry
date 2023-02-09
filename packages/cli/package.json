@@ -26,10 +26,14 @@
   "dependencies": {
     "@cli-henry/command": "^0.0.6",
     "@cli-henry/init": "^0.0.6",
+    "@cli-henry/utils": "^0.0.6",
     "chalk": "^5.2.0",
     "commander": "^10.0.0",
+    "dirname-filename-esm": "^1.1.1",
+    "fs-extra": "^11.1.0",
     "import-local": "^3.1.0",
-    "npmlog": "^7.0.1"
+    "semver": "^7.3.8"
   },
+  "type": "module",
   "gitHead": "3dded1d881901816a0639b1855aec152ee50f981"
 }

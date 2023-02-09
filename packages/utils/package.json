@@ -1,7 +1,7 @@
 {
-  "name": "@cli-henry/command",
+  "name": "@cli-henry/utils",
   "version": "0.0.6",
-  "description": "common command",
+  "description": "utils",
   "author": "fuqiang <823342479@qq.com>",
   "homepage": "https://github.com/Henry-Diasa/cli-henry#readme",
   "license": "ISC",
@@ -13,19 +13,18 @@
   "files": [
     "lib"
   ],
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Henry-Diasa/cli-henry.git"
   },
   "scripts": {
-    "test": "node ./__tests__/command.test.js"
+    "test": "node ./__tests__/utils.test.js"
   },
   "bugs": {
     "url": "https://github.com/Henry-Diasa/cli-henry/issues"
   },
-  "type": "module",
   "dependencies": {
-    "@cli-henry/init": "^0.0.6",
-    "@cli-henry/utils": "^0.0.6"
+    "npmlog": "^7.0.1"
   }
 }
