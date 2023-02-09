@@ -37,6 +37,7 @@
   "type": "module",
   "gitHead": "3dded1d881901816a0639b1855aec152ee50f981",
   "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
     "execa": "^6.1.0",
     "jest": "^29.4.2"
   }
