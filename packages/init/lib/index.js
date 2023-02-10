@@ -1,5 +1,6 @@
 import Command from "@cli-henry/command";
 import { log } from "@cli-henry/utils";
+import createTemplate from "./createTemplate.js";
 class InitCommand extends Command {
   get command() {
     return "init [name]";
@@ -12,12 +13,13 @@ class InitCommand extends Command {
   }
   action([name, opts]) {
     log.verbose("init", name, opts);
+    createTemplate(name, opts);
   }
   preAction() {
-    console.log("preAction");
+    // console.log("preAction");
   }
   postAction() {
-    console.log("postAction");
+    // console.log("postAction");
   }
 }
 

@@ -25,6 +25,7 @@
     "url": "https://github.com/Henry-Diasa/cli-henry/issues"
   },
   "dependencies": {
+    "inquirer": "^9.1.4",
     "npmlog": "^7.0.1"
   }
 }
