@@ -7,8 +7,6 @@ function printError(type, e) {
     log.error(type, e.message);
   }
 }
-export default function () {
-  process.on("uncaughtException", (e) => printError("Common Error ", e));
+process.on("uncaughtException", (e) => printError("Common Error ", e));
 
-  process.on("unhandledRejection", (e) => printError("Promise Error ", e));
-}
+process.on("unhandledRejection", (e) => printError("Promise Error ", e));
