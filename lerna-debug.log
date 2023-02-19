@@ -1,11 +1,11 @@
 53 error Error: Command failed with exit code 1: npm install --package-lock-only --ignore-scripts
 53 error npm ERR! code ETARGET
-53 error npm ERR! notarget No matching version found for @cli-henry/command@^0.0.9.
+53 error npm ERR! notarget No matching version found for @cli-henry/command@^0.0.11.
 53 error npm ERR! notarget In most cases you or one of your dependencies are requesting
 53 error npm ERR! notarget a package version that doesn't exist.
 53 error
 53 error npm ERR! A complete log of this run can be found in:
-53 error npm ERR!     /Users/fuqiang1/.npm/_logs/2023-02-19T05_23_27_502Z-debug-0.log
+53 error npm ERR!     /Users/fuqiang1/.npm/_logs/2023-02-19T05_29_58_863Z-debug-0.log
 53 error     at makeError (/usr/local/lib/node_modules/lerna/node_modules/execa/lib/error.js:60:11)
 53 error     at handlePromise (/usr/local/lib/node_modules/lerna/node_modules/execa/index.js:118:26)
 53 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
