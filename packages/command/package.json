@@ -1,6 +1,6 @@
 {
   "name": "@cli-henry/command",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "common command",
   "author": "fuqiang <823342479@qq.com>",
   "homepage": "https://github.com/Henry-Diasa/cli-henry#readme",
@@ -26,6 +26,5 @@
   "bugs": {
     "url": "https://github.com/Henry-Diasa/cli-henry/issues"
   },
-  "type": "module",
-  "dependencies": {}
+  "type": "module"
 }
