@@ -1,6 +1,6 @@
 {
   "name": "@cli-henry/cli",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "> TODO: description",
   "author": "fuqiang <823342479@qq.com>",
   "homepage": "",
@@ -24,9 +24,9 @@
     "test": "jest"
   },
   "dependencies": {
-    "@cli-henry/command": "^0.0.7",
-    "@cli-henry/init": "^0.0.7",
-    "@cli-henry/utils": "^0.0.7",
+    "@cli-henry/command": "^0.0.8",
+    "@cli-henry/init": "^0.0.8",
+    "@cli-henry/utils": "^0.0.8",
     "chalk": "^5.2.0",
     "commander": "^10.0.0",
     "dirname-filename-esm": "^1.1.1",
