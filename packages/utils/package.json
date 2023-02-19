@@ -1,6 +1,6 @@
 {
   "name": "@cli-henry/utils",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "utils",
   "author": "fuqiang <823342479@qq.com>",
   "homepage": "https://github.com/Henry-Diasa/cli-henry#readme",
@@ -29,5 +29,8 @@
     "inquirer": "^9.1.4",
     "npmlog": "^7.0.1",
     "url-join": "^5.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

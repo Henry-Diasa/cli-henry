@@ -1,6 +1,6 @@
 {
   "name": "@cli-henry/command",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "common command",
   "author": "fuqiang <823342479@qq.com>",
   "homepage": "https://github.com/Henry-Diasa/cli-henry#readme",
@@ -13,6 +13,9 @@
   "files": [
     "lib"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Henry-Diasa/cli-henry.git"
@@ -25,7 +28,7 @@
   },
   "type": "module",
   "dependencies": {
-    "@cli-henry/init": "^0.0.8",
-    "@cli-henry/utils": "^0.0.8"
+    "@cli-henry/init": "^0.0.9",
+    "@cli-henry/utils": "^0.0.9"
   }
 }
