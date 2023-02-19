@@ -1,15 +1,11 @@
 54 error Error: Command failed with exit code 1: npm install --package-lock-only --ignore-scripts
-54 error npm ERR! code E404
-54 error npm ERR! 404 Not Found - GET https://registry.npmjs.org/@cli-henry%2fcommand - Not found
-54 error npm ERR! 404
-54 error npm ERR! 404  '@cli-henry/command@^0.0.10' is not in this registry.
-54 error npm ERR! 404 You should bug the author to publish it (or use the name yourself!)
-54 error npm ERR! 404
-54 error npm ERR! 404 Note that you can also install from a
-54 error npm ERR! 404 tarball, folder, http url, or git url.
+54 error npm ERR! code ETARGET
+54 error npm ERR! notarget No matching version found for @cli-henry/command@^0.0.11.
+54 error npm ERR! notarget In most cases you or one of your dependencies are requesting
+54 error npm ERR! notarget a package version that doesn't exist.
 54 error
 54 error npm ERR! A complete log of this run can be found in:
-54 error npm ERR!     /Users/fuqiang1/.npm/_logs/2023-02-19T05_09_35_743Z-debug-0.log
+54 error npm ERR!     /Users/fuqiang1/.npm/_logs/2023-02-19T05_11_49_258Z-debug-0.log
 54 error     at makeError (/Users/fuqiang1/Desktop/cli-henry/node_modules/execa/lib/error.js:60:11)
 54 error     at handlePromise (/Users/fuqiang1/Desktop/cli-henry/node_modules/execa/index.js:118:26)
 54 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
