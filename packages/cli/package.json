@@ -35,7 +35,7 @@
     "semver": "^7.3.8"
   },
   "type": "module",
-  "gitHead": "3dded1d881901816a0639b1855aec152ee50f981",
+  "gitHead": "e6b175d2059af34a57be6531b27497fe46be7ddc",
   "devDependencies": {
     "@babel/preset-env": "^7.20.2",
     "execa": "^6.1.0",

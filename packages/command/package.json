@@ -26,5 +26,6 @@
   "bugs": {
     "url": "https://github.com/Henry-Diasa/cli-henry/issues"
   },
-  "type": "module"
+  "type": "module",
+  "gitHead": "e6b175d2059af34a57be6531b27497fe46be7ddc"
 }
